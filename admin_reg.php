@@ -11,7 +11,7 @@
 <body>
 <?php include("menu.php");?>
 <div class="sup">
-<?php
+<?php 'git pull'
 if(isset($_POST["submit"]))
 {
 	$con=mysqli_connect("localhost","root","");
