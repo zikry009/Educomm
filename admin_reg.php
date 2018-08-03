@@ -11,7 +11,7 @@
 <body>
 <?php include("menu.php");?>
 <div class="sup">
-<?php `git pull`;	
+<?php `git pull`?>;	
 <?php 
 if(isset($_POST["submit"]))
 {
