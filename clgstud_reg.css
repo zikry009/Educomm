@@ -1,0 +1,77 @@
+body{
+	background: url(ed3.jpg);
+	background-size: cover;
+	background-position:center;
+}
+.sup{
+	border-radius:5px;
+	background:black;
+	padding:20px;
+	width:450px;
+	margin:auto;
+	color:#fff;
+	font-size:16px;
+	font-family:Verdana;
+	margin-top:100px;
+	opacity:0.6;
+}
+.sup h1{
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.sup input{
+	padding:12px
+	margin:8px 0;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+	font-size:18px;
+	
+	color:black;
+	opacity:0.9;
+}
+
+.sup input[type=submit]
+{
+	width:100%;
+	border:none;
+	cursor:pointer;
+	background:gray;
+	
+}
+#f{
+	width:49%;
+}
+#l{
+	width:49.5%;
+}
+#e{
+	width:100%;
+}
+#p{
+	width:49.5%;
+}
+#rp{
+	width:49%;
+}
+.sup a{
+	color:gray;
+}
+.sup a:hover{
+	color:DeepSkyBlue;
+}
+input[type=submit]:hover{
+	background:purple;
+	transition:0.6s;
+}
+#u{
+	width:100%;
+}
+#i{
+	width:100%;
+}
+#phone{width:100%;}
+#sem{width:28%;}
+#branch{width:20%;}
+#enrol{width:49%;}

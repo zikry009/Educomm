@@ -1,0 +1,37 @@
+body{
+	
+	background: url(rsz_edu6.jpg);
+	background-size:100% 250%;
+	background-repeat:no-repeat;
+}
+.sup{
+	border-radius:5px;
+	background:white;
+	padding:20px;
+	width:420px;
+	margin:auto;
+	color:#fff;
+	font-size:16px;
+	position: relative;
+	font-family: Arial;
+	margin-top:100px;
+	opacity:1;
+}
+.sup h1{
+	text-align:center;
+	color:black;
+	margin:0;
+	padding:0;
+}
+.sup select{
+	border:1px solid black;
+	box-sizing:border-box;
+	background-color:white;
+	color:black;
+	width:55%;
+	border-radius:4px;
+	padding: 5px 8px;
+	font-size: 20px;
+	background-image: linear-gradient(rgb(47,79,79),white));
+
+}

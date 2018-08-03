@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Welcome to Educomm</title>
+      <link rel="stylesheet" href="style.css">
+	  <?php include("headerslinks.php");?>
+</head>
+<body>
+<?php include("menu.php");?>
+<div class="content">
+	<center><h1>What is Educomm?</h1></center>
+      <p>Educomm is an Educational Communication System, 
+	  it is just like website or web app will help to maintain, 
+	  create, and modify the school, colleges, and other private 
+	  coaching institutes’ database. 
+	  And help them to maintain the information of their institutes. 
+	  They can create the database about their respective institutes 
+	  that can include their students’ history like their marks, report card, 
+	  attendance etc, faculties information , events updates, study materials etc 
+	  information that required by the respected institutes. 
+	  It will acts like Management System that will helps to maintains 
+	  respected institutes, organization information. </p> 
+	 
+</div>
+
+</body>
+</html>

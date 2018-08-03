@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Select Registration type</title>
+<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+<div class="sup">
+<h1> Select Registration type</h1>
+<hr>
+<center>
+<select id="list" name="list" onchange="myfun()" style="width:55%">
+<option value="" selected>Select</option>
+<option value="College Student">College Student</option>
+<option value="Tutions/Private Tutor">Tutions/Private Tutor</option>
+<option value="School Student">School Student</option>
+</select>
+</center>
+</div>
+<script>
+function myfun()
+{
+switch(document.getElementById("list").value){
+case "College Student":
+				window.location="clgstud_reg.php";
+				break;
+case "Tutions/Private Tutor":
+				window.location="stud_reg.php";
+				break;
+case "School Student":
+				window.location="sstud_reg.php";
+				break;
+default:
+		window.location="stud.html";
+		break;
+}
+	
+}
+</script>
+</body>
+</html>
