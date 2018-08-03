@@ -10,8 +10,7 @@
 </head>
 <body>
 <?php include("menu.php");?>
-<div class="sup">
-<?php `git pull`?>;	
+<div class="sup">	
 <?php 
 if(isset($_POST["submit"]))
 {
